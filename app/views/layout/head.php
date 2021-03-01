@@ -1,20 +1,35 @@
+
 <head>
-  <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="<?=base_url()?>/assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="<?=base_url()?>/assets/img/favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>
-  <?=namaAPP?>
-  </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-  <!-- CSS Files -->
-  <link href="<?=base_url()?>/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="<?=base_url()?>/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="<?=base_url()?>/assets/demo/demo.css" rel="stylesheet" />
-  
-  <script src="<?=base_url()?>/assets/js/core/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title><?= namaAPP ?></title>
+  <meta content="Sedia Koding Sebagai penyedia source code gratis untuk membantu pembuatan sistem" name="description">
+
+  <meta content="Sedia Koding | Source code gratis | belajar koding | koding | stok koding " name="keywords">
+
+  <!-- Favicons -->
+  <link href="<?= base_url('FlexStart/') ?>assets/img/favicon.png" rel="icon">
+  <link href="<?= base_url('FlexStart/') ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url('FlexStart/') ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="<?= base_url('FlexStart/') ?>assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.1.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>

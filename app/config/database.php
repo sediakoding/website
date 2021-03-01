@@ -6,9 +6,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:2020',
-	'username' => 'userlocal',
-	'password' => 'adminuser2020',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

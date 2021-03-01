@@ -1,11 +1,11 @@
-<!--   Core JS Files   -->
-  <script src="<?=base_url()?>/assets/js/core/popper.min.js"></script>
-  <script src="<?=base_url()?>/assets/js/core/bootstrap.min.js"></script>
-  <script src="<?=base_url()?>/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!-- Chart JS -->
-  <script src="<?=base_url()?>/assets/js/plugins/chartjs.min.js"></script>
-  <!--  Notifications Plugin    -->
-  <script src="<?=base_url()?>/assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="<?=base_url()?>/assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-  <script src="<?=base_url()?>/assets/demo/demo.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/aos/aos.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/purecounter/purecounter.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= base_url('FlexStart/') ?>assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="<?= base_url('FlexStart/') ?>assets/js/main.js"></script>
