@@ -4,12 +4,13 @@
 <?php
 require 'layout/head.php';
 ?>
+
 <body>
 
   <!-- ======= Header ======= -->
-<?php
-require 'layout/header.php';
-?>
+  <?php
+  require 'layout/header.php';
+  ?>
 
   <!-- ======= Hero Section ======= -->
 
@@ -19,8 +20,8 @@ require 'layout/header.php';
 
     <!-- ======= Values Section ======= -->
 
-<br>
-   <!-- ======= Portfolio Section ======= -->
+    <br>
+    <!-- ======= Portfolio Section ======= -->
     <section id="home" class="portfolio">
 
       <div class="container" data-aos="fade-up">
@@ -45,12 +46,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -59,12 +60,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -73,12 +74,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -87,12 +88,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -101,12 +102,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -115,12 +116,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -129,12 +130,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -143,12 +144,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -157,12 +158,12 @@ require 'layout/header.php';
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="<?= base_url() ?>img/portfolio-sk.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="<?= base_url('FlexStart/') ?>assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="<?= base_url() ?>img/portfolio-sk.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -223,10 +224,10 @@ require 'layout/header.php';
             </div>
           </div>
 
-    
-          </div>
 
         </div>
+
+      </div>
 
       </div>
 
@@ -261,7 +262,7 @@ require 'layout/header.php';
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
                   <a href="https://api.whatsapp.com/send?phone=62899&text=Assalamu'alaikum Wr Wb " target="_blank"> Abdul </a>
-            <br>
+                  <br>
                   <a href="https://api.whatsapp.com/send?phone=6285712136302&text=Assalamu'alaikum Wr Wb " target="_blank"> Roy </a>
                 </div>
               </div>
@@ -325,19 +326,19 @@ require 'layout/header.php';
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-            <!-- footer -->
-            <?php
-            require 'layout/footer.php';
-            ?>
-            <!-- footer -->
+  <!-- footer -->
+  <?php
+  require 'layout/footer.php';
+  ?>
+  <!-- footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!-- JS -->
-<?php
-require 'layout/js.php';
-?>
-<!-- JS -->
+  <!-- JS -->
+  <?php
+  require 'layout/js.php';
+  ?>
+  <!-- JS -->
 
 </body>
 

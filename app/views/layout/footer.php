@@ -6,8 +6,8 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="<?= base_url()?>img/logo.png" alt="">
-              
+              <img src="<?= base_url() ?>img/logo.png" alt="">
+
             </a>
             <p>Terimakasih Sudah berkunjung di website Kami, Semoga bermanfaat dan berkah</p>
             <div class="social-links mt-3">
@@ -24,7 +24,7 @@
               <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-         
+
             </ul>
           </div>
 
@@ -63,6 +63,8 @@
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
         <a href="https://sediakoding.com/">Sediakoding.com</a>
+        <!-- Histats.com  (div with counter) -->
+        <div id="histats_counter"></div>
       </div>
     </div>
   </footer><!-- End Footer -->
